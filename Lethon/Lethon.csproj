@@ -3,11 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
-    <PackageVersion>1.0.0-alpha.1</PackageVersion>
+    <PackageVersion>1.0.0-alpha.2</PackageVersion>
     <Authors>sventhiel</Authors>
     <Owners>sventhiel</Owners>
     <PackageId>Lethon</PackageId>
     <Description>crypto-loot.com api</Description>
+    <PackageProjectUrl>https://github.com/sventhiel/Lethon</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
