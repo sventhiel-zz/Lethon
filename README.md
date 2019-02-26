@@ -1,2 +1,2 @@
-# Lethon
+# Lethon [![Build Status](https://travis-ci.com/sventhiel/Lethon.svg?branch=master)](https://travis-ci.com/sventhiel/Lethon)
 ...coming soon...
