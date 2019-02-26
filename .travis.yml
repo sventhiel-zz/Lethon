@@ -2,6 +2,6 @@ language: csharp
 mono: none
 install:
  - sudo dpkg --purge packages-microsoft-prod && sudo dpkg -i packages-microsoft-prod.deb
-dotnet: 2.2.104
+dotnet: 2.2
 script:
  - dotnet restore
