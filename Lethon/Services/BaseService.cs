@@ -1,10 +1,8 @@
 ﻿using System;
 namespace Lethon.Services
 {
-    public class BaseService
+    public abstract class BaseService
     {
-        public BaseService()
-        {
-        }
+        internal readonly string BaseURL = "https://api.crypto-loot.com";
     }
 }

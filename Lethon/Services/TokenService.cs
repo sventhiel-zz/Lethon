@@ -2,22 +2,23 @@
 using Lethon.Interfaces;
 using Lethon.Models;
 using System.Net.Http;
+using Microsoft.Extensions.Configuration;
 
 namespace Lethon.Services
 {
     /// <summary>
     /// Token service.
     /// </summary>
-    public class TokenService : ITokenService
+    public class TokenService : BaseService, ITokenService
     {
         /// <summary>
         /// Verifies the token.
         /// </summary>
         /// <returns>The token.</returns>
         /// <param name="requestModel">Request model.</param>
-        public async Task<VerifyTokenResponse> VerifyToken(VerifyTokenRequest requestModel)
+        public async Task<VerifyTokenResponse> VerifyTokenAsync(VerifyTokenRequest requestModel)
         {
-            var serviceURL = "https://api.crypto-loot.com/token/verify";
+            var serviceURL = $"{BaseURL}/token/verify";
 
             var client = new HttpClient();
             var request = new HttpRequestMessage(HttpMethod.Post, serviceURL) { Content = new FormUrlEncodedContent(requestModel.ToDictionary()) };
