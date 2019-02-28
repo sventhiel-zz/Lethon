@@ -13,7 +13,7 @@ namespace Lethon.Interfaces
         /// Verifies the token.
         /// </summary>
         /// <returns>The token.</returns>
-        /// <param name="request">Request.</param>
-        Task<VerifyTokenResponse> VerifyToken(VerifyTokenRequest request);
+        /// <param name="requestModel">Request.</param>
+        Task<VerifyTokenResponse> VerifyTokenAsync(VerifyTokenRequest requestModel);
     }
 }
