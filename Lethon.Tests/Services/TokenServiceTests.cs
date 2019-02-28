@@ -22,7 +22,7 @@ namespace Lethon.Tests.Services
 
             var tokenService = new TokenService();
 
-            var responseModel = tokenService.VerifyToken(requestModel).Result;
+            var responseModel = tokenService.VerifyTokenAsync(requestModel).Result;
         }
     }
 }
