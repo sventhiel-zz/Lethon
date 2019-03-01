@@ -14,7 +14,7 @@ namespace Lethon.Interfaces
         /// </summary>
         /// <returns>The async.</returns>
         /// <param name="requestModel">Request model.</param>
-        Task<List<HistoryResponse>> HistoryAsync(HistoryRequest requestModel);
+        Task<HistoryResponse> HistoryAsync(HistoryRequest requestModel);
 
         /// <summary>
         /// Payouts the async.
