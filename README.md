@@ -1,4 +1,4 @@
-# Lethon [![Build Status](https://travis-ci.com/sventhiel/Lethon.svg?branch=master)](https://travis-ci.com/sventhiel/Lethon) ![Nuget](https://img.shields.io/nuget/v/Lethon.svg) ![Nuget](https://img.shields.io/nuget/dt/Lethon.svg)
+# Lethon [![Build Status](https://travis-ci.com/sventhiel/Lethon.svg?branch=master)](https://travis-ci.com/sventhiel/Lethon) ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Lethon.svg) ![Nuget](https://img.shields.io/nuget/dt/Lethon.svg)
 
 ## Description
 The pro
