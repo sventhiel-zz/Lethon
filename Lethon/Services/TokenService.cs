@@ -2,7 +2,6 @@
 using Lethon.Interfaces;
 using Lethon.Models;
 using System.Net.Http;
-using Microsoft.Extensions.Configuration;
 
 namespace Lethon.Services
 {

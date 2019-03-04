@@ -3,7 +3,6 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Lethon.Interfaces;
 using Lethon.Models;
-using Microsoft.Extensions.Configuration;
 
 namespace Lethon.Services
 {
