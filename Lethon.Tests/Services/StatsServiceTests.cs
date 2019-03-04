@@ -21,6 +21,8 @@ namespace Lethon.Tests.Services
             var statsService = new StatsService();
 
             var responseModel = statsService.PayoutAsync(requestModel).Result;
+
+            Assert.True(responseModel.Success);
         }
 
         [Fact]
@@ -36,6 +38,8 @@ namespace Lethon.Tests.Services
             var statsService = new StatsService();
 
             var responseModel = statsService.HistoryAsync(requestModel).Result;
+
+            Assert.True(responseModel.Success);
         }
     }
 }
